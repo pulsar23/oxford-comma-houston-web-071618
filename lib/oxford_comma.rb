@@ -1,4 +1,8 @@
 def oxford_comma(array)
-  string_oc = array.join
-  return string_oc
+  length = array.length 
+  
+  if length <= 1  
+    return array.join
+  else
+    return array.join()
 end
