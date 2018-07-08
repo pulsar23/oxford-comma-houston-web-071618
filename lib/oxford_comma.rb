@@ -8,8 +8,8 @@ def oxford_comma(array)
       return array.join(" and ")
     else #string >= 3
       last_item = array.pop
-      string_cs = array.join(",")
-      new_string = string_cs + " and #{last_item}"
+      string_cs = array.join(", ")
+      new_string = string_cs + "and #{last_item}"
       return new_string
   end #end case
   
