@@ -9,7 +9,7 @@ def oxford_comma(array)
     else #string >= 3
       last_item = array.pop
       string_cs = array.join(", ")
-      new_string = string_cs + " and #{last_item}"
+      new_string = string_cs + ", and #{last_item}"
       return new_string
   end #end case
   
